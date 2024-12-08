@@ -6,3 +6,9 @@
 	path = JustInTimeBlog/public
 	url = https://github.com/khagankhan/justintime.github.io.git
 	branch = main
+[submodule "public/JustInTimeBlog/themes/PaperMod"]
+	path = public/JustInTimeBlog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "JustInTimeBlog/themes/PaperMod"]
+	path = JustInTimeBlog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
