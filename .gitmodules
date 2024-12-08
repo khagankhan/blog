@@ -1,0 +1,8 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/khagankhan/justintime.github.io.git
+	branch = main
+[submodule "JustInTimeBlog/public"]
+	path = JustInTimeBlog/public
+	url = https://github.com/khagankhan/justintime.github.io.git
+	branch = main

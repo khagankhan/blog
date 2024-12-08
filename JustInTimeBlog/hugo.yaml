@@ -1,0 +1,52 @@
+baseURL: https://khagankhan.github.io/
+languageCode: en-us
+title: "Just In Time"
+theme: PaperMod
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  author: "Khagan Khan Karimov"
+  homeInfoParams:
+    Title: "Hey there 👋"
+    Content: Welcome to my blog! I am Khan (like "Wrath of Khan" from "Star Trek"). I occasionally share my interests in compilers, computer systems, and programming languages. "just a hobby, won't be big and professional" :)
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/khagan-karimov-609a8326a/"
+    - name: github
+      url: "https://github.com/khagankhan"
+    - name: twitter
+      url: "https://x.com/KhaganKarimov"
+    - name: email
+      url: "mailto:khagan.karimov@utah.edu"
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+menu:
+  main:
+  - identifier: categories
+    name: Categories
+    url: /categories
+    weight: 10
+  - identifier: tags
+    name: Tags
+    url: /tags
+    weight: 20
+  - identifier: archives
+    name: Archives
+    url: /archives
+    weight: 30
+  - identifier: about
+    name: About Me
+    url: "/about/"
+    weight: 40
