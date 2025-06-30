@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Optimization on Just In Time</title>
-    <link>http://localhost:1313/tags/optimization/</link>
+    <link>https://khagankhan.github.io/tags/optimization/</link>
     <description>Recent content in Optimization on Just In Time</description>
     <generator>Hugo -- 0.134.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://khagankhan.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Be an LLVM contributor: Writing an optimization pattern for LLVM</title>
-      <link>http://localhost:1313/posts/llvm-pass/</link>
+      <link>https://khagankhan.github.io/posts/llvm-pass/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/llvm-pass/</guid>
+      <guid>https://khagankhan.github.io/posts/llvm-pass/</guid>
       <description>&lt;h2 id=&#34;llvms-optimizations-are-truly-impressive&#34;&gt;LLVM&amp;rsquo;s Optimizations Are Truly Impressive&lt;/h2&gt;
 &lt;p&gt;LLVM performs aggressive optimizations. One of my favorites is the Data Structure Elimination. For example, we want to 1) compute the sum of two integers (&lt;code&gt;get_sum&lt;/code&gt; function), and 2) select one of the two characters based on a condition argument (&lt;code&gt;get_char&lt;/code&gt; function):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-c++&#34; data-lang=&#34;c++&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#include&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;vector&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
@@ -46,9 +46,9 @@
     </item>
     <item>
       <title>Do parentheses matter for better performance?</title>
-      <link>http://localhost:1313/posts/missed-opt/</link>
+      <link>https://khagankhan.github.io/posts/missed-opt/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/missed-opt/</guid>
+      <guid>https://khagankhan.github.io/posts/missed-opt/</guid>
       <description>&lt;h1 id=&#34;missed-optimizations-in-llvm&#34;&gt;Missed optimizations in LLVM&lt;/h1&gt;
 &lt;p&gt;The book &amp;ldquo;Computer Systems: A Programmer&amp;rsquo;s Perspective&amp;rdquo; warns the readers: &amp;ldquo;When in doubt, put in parentheses!&amp;rdquo;. Despite the authors saying this when talking about precedence issues, it would be applicable to some other cases. If you have ever written in a Lisp-like language you must love them!&lt;/p&gt;
 &lt;p&gt;But what would happen if we put some &lt;em&gt;undue&lt;/em&gt; parentheses in our code.&lt;/p&gt;
